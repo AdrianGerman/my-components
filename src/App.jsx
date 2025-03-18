@@ -1,9 +1,13 @@
-import "./App.css"
+import { Background } from "./components/Background"
+import { MainComponents } from "./components/MainComponent"
 
 function App() {
   return (
     <>
-      <h1 className="text-6xl">Hola, esta es mi app en React</h1>
+      <main className="flex items-center justify-center w-screen min-h-screen">
+        <Background />
+        <MainComponents />
+      </main>
     </>
   )
 }
